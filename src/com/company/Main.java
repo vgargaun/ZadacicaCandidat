@@ -5,11 +5,11 @@ import java.text.DecimalFormat;
 public class Main {
 
     public static void main(String[] args) {
-        int candidatA = 733;
+        int candidatA = 1548;
         int candidatB = 733;
-        System.out.println("----------------------");
-        System.out.println("IN\t\t\t|\t\tOUT");
-        System.out.println("----------------------");
+        System.out.println("------------------------------");
+        System.out.println("IN\t\t\t\t|\t\tOUT");
+        System.out.println("------------------------------");
 
         if(candidatB>candidatA) {
             double probabilitateB = (double) candidatB / (candidatA + candidatB);
